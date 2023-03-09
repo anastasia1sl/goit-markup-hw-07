@@ -1,0 +1,197 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    min-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  /* ---------------------- header section ------------------ */
+  .header-logo {
+    margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .contacts-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .header-tel,
+  .header-mail {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .header-link {
+    padding-bottom: 24px;
+    padding-top: 24px;
+  }
+
+  /* -------------------------hero section-------------- */
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--second-title-color);
+
+    margin-bottom: 48px;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ------------------------About section ----------------- */
+  .about {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .about-icon-box {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 102px;
+    padding-right: 102px;
+    background: #f4f4fd;
+    border-radius: 4px;
+    gap: 24px;
+  }
+
+  .about-icon {
+    display: flex;
+    width: 64px;
+    height: 64px;
+  }
+
+  .about-list {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 24px;
+  }
+
+  .about-item-title {
+    padding-top: 8px;
+  }
+  .about-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+  }
+
+  .about-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+  }
+
+  /* --------- our team section------- */
+
+  .team-item {
+    width: calc((100% -72px) / 4);
+  }
+
+  .team-title {
+    padding-top: 120px;
+  }
+
+  .team-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+    padding-bottom: 120px;
+  }
+  /* -----------customers section------------ */
+
+  .customers-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .customers-item {
+    width: 168px;
+    height: 88px;
+  }
+  .customers-title {
+    margin-bottom: 72px;
+    padding-top: 120px;
+  }
+
+  /* ----------------footer section --------------- */
+
+  .footer {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  .foot {
+    flex-wrap: nowrap;
+  }
+
+  .footer-info-wrap {
+    width: 264px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .footer-logo {
+    display: inline-block;
+  }
+  .footer-social-wrap {
+    margin-left: 120px;
+  }
+  .footer-icons-list {
+    margin-bottom: 0;
+  }
+  .footer-text {
+    margin-bottom: 0;
+  }
+
+  .footer-sub-wrap {
+    margin-left: auto;
+  }
+
+  .subscribe-form {
+    display: flex;
+  }
+
+  /* ----pics opt---- */
+
+  .overlay {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-pic.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .overlay {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-pic-2x.jpg);
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  /* ---------what we are doing section----- */
+  .examples {
+    display: none;
+  }
+  /* --------- about icon-------- */
+  .about-icon-box {
+    display: none;
+  }
+}
