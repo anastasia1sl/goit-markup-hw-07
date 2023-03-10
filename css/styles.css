@@ -2,11 +2,11 @@ html {
   box-sizing: border-box;
 }
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
+} */
 
 ul {
   margin: 0;
@@ -45,7 +45,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  /* width: 100%; */
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -68,7 +68,7 @@ body {
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 426px;
+    width: 428px;
     margin: auto;
 
     padding-left: 15px;
@@ -265,12 +265,13 @@ body {
 }
 
 .hero-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
 
-  width: 320px;
+  max-width: 320px;
   margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
@@ -367,6 +368,11 @@ body {
   background-color: var(--common-background-color);
 }
 
+.team-pic {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .team-item {
   width: 264px;
   margin-left: auto;
@@ -799,7 +805,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
 
-  width: 408px;
+  width: 320px;
   min-height: 576px;
   background: #fcfcfc;
   border-radius: 4px;
@@ -809,10 +815,9 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .modal {
     width: 392px;
-    min-height: 586px;
   }
 }
 

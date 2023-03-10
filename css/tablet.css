@@ -115,7 +115,7 @@
     letter-spacing: 0.02em;
     color: var(--second-title-color);
 
-    width: 496px;
+    min-width: 496px;
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -160,6 +160,9 @@
     margin-left: 0;
     margin-right: 0;
   }
+  .team-item-title {
+    margin-bottom: 8px;
+  }
   /* ------------customers section----------- */
   .customers-item {
     width: 168px;
@@ -197,6 +200,12 @@
   }
   .input-sub {
     width: 264px;
+    margin-bottom: 0;
+  }
+
+  .modal {
+    width: 408px;
+    min-height: 586px;
   }
 
   /* ------------pics opt----*/
